@@ -2,7 +2,7 @@ baseURL = "https://example.com"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "Hugo Techdoc Theme"
+title = "Interactive Math Notes"
 theme = "hugo-theme-techdoc"
 
 hasCJKLanguage = true
@@ -15,13 +15,13 @@ enableMissingTranslationPlaceholders = false
 [params]
 
     # Source Code repository section
-    description = "put your description"
-    github_repository = "https://github.com/thingsym/hugo-theme-techdoc"
-    version = "0.9.7"
+    description = "Study notes for math with interactive figures."
+    github_repository = "https://github.com/xbgbtx/interactive-math-notes"
+    version = "0.1"
 
     # Documentation repository section
     # documentation repository (set edit link to documentation repository)
-    github_doc_repository = "https://github.com/thingsym/hugo-theme-techdoc"
+    github_doc_repository = "https://github.com/xbgbtx/interactive-math-notes"
     github_doc_repository_path = ""
 
     # Analytic section
@@ -33,7 +33,7 @@ enableMissingTranslationPlaceholders = false
     # Open Graph settings for each page are set on the front matter.
     # See https://gohugo.io/templates/internal/#open-graph
     # See https://gohugo.io/templates/internal/#twitter-cards
-    title = "Hugo Techdoc Theme"
+    title = "Interactive Math Notes"
     images = ["images/og-image.png"] # Open graph images are placed in `static/images`
 
     # Theme settings section
