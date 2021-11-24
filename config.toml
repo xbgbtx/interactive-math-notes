@@ -14,6 +14,8 @@ enableMissingTranslationPlaceholders = false
 
 [params]
 
+    customCSS = ["css/p5js-sketch.css"]
+
     # Source Code repository section
     description = "Study notes for math with interactive figures."
     github_repository = "https://github.com/xbgbtx/interactive-math-notes"
