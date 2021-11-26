@@ -29,6 +29,11 @@
 {{- template "_internal/twitter_cards.html" . -}}
 {{- template "_internal/schema.html" . -}}
 
+<!-- custom CSS -->
 {{ range .Site.Params.customCSS -}}
    <link rel="stylesheet" href="{{ . | absURL }}">
+{{- end }}
+<!-- custom javascript -->
+{{ range .Site.Params.customJS -}}
+   <script type="text/javascript" src="{{ . | absURL }}"></script>
 {{- end }}

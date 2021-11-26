@@ -15,6 +15,7 @@ enableMissingTranslationPlaceholders = false
 [params]
 
     customCSS = ["css/p5js-sketch.css"]
+    customJS = ["js/p5js-sketch-iframe-scale.js"]
 
     # Source Code repository section
     description = "Study notes for math with interactive figures."
