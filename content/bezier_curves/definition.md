@@ -11,4 +11,5 @@ a line.
 
 {{< p5js-sketch 
    src="https://xbgbtx.github.io/p5js_bezier_linear/" 
+   caption="Linear interpolation between p0 and p1."
 >}}
