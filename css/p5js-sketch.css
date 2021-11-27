@@ -1,0 +1,31 @@
+.p5js-sketch-container figcaption
+{
+   padding : 0px 3em;
+   font-style : italic;
+   font-size : small;
+}
+
+/*
+ * p5js-sketch is used to wrap the iframe and help position it as
+ * it scales. See: https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
+ */
+.p5js-sketch
+{
+   width : 100%;
+   max-width : 512px;
+   max-height : 512px;
+   padding-top : min(512px,100%);
+   position : relative;
+   overflow : hidden;
+}
+
+.p5js-sketch iframe
+{
+   display : block;
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   overscroll-behavior: contain;
+}
