@@ -1,11 +1,24 @@
 main
 {
-   background-color : #851430;
+   background: rgb(25,25,78);
+   background: linear-gradient(0deg, 
+                  rgba(44,25,81,1) 1%, 
+                  rgba(133,20,48,1) 37%, 
+                  rgba(25,25,78,1) 100%);
    color : #FDE9C7;
 }
 
 .sidebar
 {
    background-color : #19194E;
-   color : #FDE9C7;
+}
+
+.sidebar a
+{
+   color : #FFFFFF;
+}
+
+.sidebar .active a
+{
+   color : rgba(133,20,48,1);
 }
