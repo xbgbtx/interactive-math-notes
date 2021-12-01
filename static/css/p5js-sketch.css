@@ -17,6 +17,7 @@
    padding-top : min(512px,100%);
    position : relative;
    overflow : hidden;
+   border: 2px solid #FFFFFF;
 }
 
 .p5js-sketch iframe
