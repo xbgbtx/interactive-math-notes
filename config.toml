@@ -78,10 +78,6 @@ enableMissingTranslationPlaceholders = false
         url = "/"
         weight = 1
 
-    [[menu.main]]
-        name = "Twitter"
-        url = "https://twitter.com/thingsym"
-        weight = 2
 
 # Markup configure section
 # See https://gohugo.io/getting-started/configuration-markup/
