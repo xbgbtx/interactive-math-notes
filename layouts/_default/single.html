@@ -1,0 +1,9 @@
+{{- define "main" -}}
+{{- partial "table-of-contents.html" . -}}
+<div class="textbox">
+<h1>{{ .Title }}</h1>
+{{- .Content -}}
+</div>
+{{- partial "edit-meta.html" . -}}
+{{- partial "pagination.html" . -}}
+{{- end -}}

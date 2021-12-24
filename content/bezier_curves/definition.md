@@ -3,7 +3,6 @@ title: "Bézier Curves - Definition"
 weight: 10
 ---
 
-{{% textbox %}}
 
 # Linear Interpolation
 
@@ -15,4 +14,3 @@ a line.
    caption="Linear interpolation between p0 and p1."
 >}}
 
-{{% /textbox %}}
