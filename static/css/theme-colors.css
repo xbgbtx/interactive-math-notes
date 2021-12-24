@@ -32,6 +32,13 @@ main
    font-weight : bold;
 }
 
+.chapter-title
+{
+   text-decoration : underline;
+   font-size : 3em;
+   text-align : center;
+}
+
 .textbox
 {
    background-color : rgba(34,12,26,0.9);
